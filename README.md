@@ -1,4 +1,4 @@
-# Scientfic-Calculator
+# Scientific-Calculator
 
 ## INTRODUCTION
 It is a ***Scientific Calculator cum Converter Website*** which allows to describe the tasks in an easy way and instantly get an accurate answer. 
