@@ -10,7 +10,6 @@
 
     <body>
         <div class="container">
-            <u><h1>Scientific Calculator</h1></u>
             <div class="calculate">
 
                 <input id="screen" type="text" placeholder="0">
@@ -34,7 +33,7 @@
                     <button class="btn" onclick="insert('sin(')">sin</button>
                     <button class="btn" onclick="insert('cos(')">cos</button>
                     <button class="btn" onclick="insert('tan(')">tan</button>
-                    <button class="btn" onclick="pi()">&Pi;</button>
+                    <button class="btn" onclick="insert('π')">&Pi;</button>
                     <button class="btn" onclick="insert('e')">e</button>
                     <button class="btn" onclick="oper('/')">&divide;</button>
 
@@ -52,14 +51,14 @@
                     <button class="btn" id="six" onclick="insert('6')">6</button>
                     <button class="btn" onclick="oper('-')">-</button>
 
-                    <button class="btn" onclick="oper('^2')">x<sup>2</sup></button>
+                    <button class="btn" onclick="sq()">x<sup>2</sup></button>
                     <button class="btn" onclick="sq_rt()">&radic;x</button>
                     <button class="btn" id="one" onclick="insert('1')">1</button>
                     <button class="btn" id="two" onclick="insert('2')">2</button>
                     <button class="btn" id="three" onclick="insert('3')">3</button>
                     <button class="btn" onclick="oper('+')">+</button>
 
-                    <button class="btn" onclick="oper('^3')">x<sup>3</sup></button>
+                    <button class="btn" onclick="cb()">x<sup>3</sup></button>
                     <button class="btn" onclick="cb_rt()"><sup>3</sup>&radic;x</button>
                     <button class="btn" onclick="sign()">+/-</button>
                     <button class="btn" id="zero" onclick="insert('0')">0</button>

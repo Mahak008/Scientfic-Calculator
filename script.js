@@ -4,7 +4,7 @@ let ans = document.getElementById("ans");
 alert("Close all the brackets for accurate result");
 alert("Value of Sin, Cos and Tan will be in Radians");
 
-const {abs, sin, cos, tan, E} = Math; //Since all of them are javascript functions, we need to close the bracket while using them
+const {abs, sin, cos, tan, E, PI} = Math; //Since all of them are javascript functions, we need to close the bracket while using them
 
 function clr() {
     screen.value = "";
@@ -64,6 +64,7 @@ function solve() {
         inValue = inValue.replace("e","E");
         inValue = inValue.replace("x","*");
         inValue = inValue.replace("^","**");
+        inValue = inValue.replace("π","PI");
         inValue = inValue.replace(/(\d+\.?\d*)\!/g,"fact($1)");
         try {
             inValue = eval(inValue);
@@ -83,15 +84,6 @@ function fact(x) {
     return n;
 }
 
-function pi () {
-    if(screen.value.length != 0) {
-        screen.value += Math.PI;
-    }
-    else {
-        screen.value = Math.PI;
-    }
-}
-
 function rad() {
     ans.value = screen.value * Math.PI / 180;
 }
@@ -108,8 +100,16 @@ function ln() {
     ans.value = Math.log(screen.value);
 }
 
+function sq() {
+    ans.value = Math.pow((screen.value),2);
+}
+
 function sq_rt() {
     ans.value = Math.sqrt(screen.value);
+}
+
+function cb() {
+    ans.value = Math.pow((screen.value),3);
 }
 
 function cb_rt() {
