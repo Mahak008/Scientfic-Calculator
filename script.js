@@ -1,8 +1,8 @@
 let screen = document.getElementById("screen");
 let ans = document.getElementById("ans");
 
-alert("Close all the brackets for accurate result");
-alert("Value of Sin, Cos and Tan will be in Radians");
+// alert("Close all the brackets for accurate result");
+// alert("Value of Sin, Cos and Tan will be in Radians");
 
 const {abs, sin, cos, tan, E, PI} = Math; //Since all of them are javascript functions, we need to close the bracket while using them
 
@@ -119,3 +119,19 @@ function cb_rt() {
 function sign() {
     ans.value = screen.value * -1;
 }
+
+var icon = document.getElementById("icon");
+var sun = document.querySelector(".fa-moon");
+icon.onclick = function() {
+    document.body.classList.toggle("dark-mode");
+    if(document.body.classList.contains("dark-mode")) {
+        sun.classList.replace("fa-moon", "fa-sun");
+    }
+}
+
+
+
+
+
+
+
