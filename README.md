@@ -1,8 +1,7 @@
-# Scientfic-Calculator
-# SCIENTIFIC CALCULATOR
+# Scientific-Calculator
 
 ## INTRODUCTION
-It is a ***Scientific Calculator cum Converter Responsive Website*** which allows to describe the tasks in an easy way and instantly get an accurate answer. 
+It is a ***Scientific Calculator cum Converter Website*** which allows to describe the tasks in an easy way and instantly get an accurate answer. 
 
 ## Functions Performed
 * Absolute Value of a no.
@@ -17,6 +16,4 @@ It is a ***Scientific Calculator cum Converter Responsive Website*** which allow
 * Value of Trigonometric Ratios in Radian
 
 ## Demo
-
-
-![Screenshot (320)](https://user-images.githubusercontent.com/88129955/194235592-602cc334-53d1-48e1-8bfe-9a0519ced839.png)
+![Screenshot (586)](https://github.com/Mahak008/Scientfic-Calculator/assets/88129955/fd6ddf29-20d8-4a58-be79-5527709cfba6)
